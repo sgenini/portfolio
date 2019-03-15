@@ -2,6 +2,7 @@
   "version": 2,
   "name": "portfolio",
   "alias": ["stephanegenini.com", "www.stephanegenini.com"],
+  "regions": ["sfo"],
   "builds": [
     {
       "src": "package.json",
