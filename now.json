@@ -1,6 +1,7 @@
 {
   "version": 2,
   "name": "portfolio",
+  "alias": ["stephanegenini.com", "www.stephanegenini.com"],
   "builds": [
     {
       "src": "package.json",
