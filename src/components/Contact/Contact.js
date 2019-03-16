@@ -25,7 +25,7 @@ class Contact extends React.Component {
 
   render(){
     return (
-      <section className="contact-section my-5" style={{opacity: ".9"}}>
+      <section className="contact-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "100%"}}>
         <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
   
           <MDBCard className="shadow-box-example hoverable">
@@ -146,7 +146,7 @@ class Contact extends React.Component {
                         </a>
                       </li>
                       <li className="list-inline-item mb-4">
-                        <a href="https://twitter.com/StephaneGenini" target="_blank" rel="noopener noreferrer" className="p-2 fa-lg w-ic hoverable rounded" style={{color: "#212121"}} >
+                        <a href="https://twitter.com/stephanegenini" target="_blank" rel="noopener noreferrer" className="p-2 fa-lg w-ic hoverable rounded" style={{color: "#212121"}} >
                           <MDBIcon fab icon="twitter" />
                         </a>
                       </li>

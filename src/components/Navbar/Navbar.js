@@ -30,7 +30,7 @@ class Navbar extends Component {
 
   redirectTwitter = () => {
     // eslint-disable-next-line
-    window.open("https://twitter.com/StephaneGenini", "_blank");
+    window.open("https://twitter.com/stephanegenini", "_blank");
   }
 
   redirectMailTo = () => {
@@ -40,7 +40,7 @@ class Navbar extends Component {
 
   render() {
     return (
-      <MDBNavbar className="shadow-box-example hoverable border-bottom border-light" dark expand="md" style={{backgroundColor: "rgba(0,0,0,0.8)"}}>
+      <MDBNavbar className="shadow-box-example hoverable border-bottom border-light" dark expand="md" style={{backgroundColor: "rgba(0,0,0,0.8)"}} scrolling fixed="top">
         <MDBNavbarBrand>
           <strong className="white-text font-nunito text-uppercase">
               <img src={logo} alt="logo" height="40" /> Stéphane Genini</strong>
@@ -62,7 +62,7 @@ class Navbar extends Component {
                 <MDBDropdownToggle nav caret>
                   <div className="d-md-inline font-nunito text-uppercase rounded">Projects</div>
                 </MDBDropdownToggle>
-                <MDBDropdownMenu basic left>
+                <MDBDropdownMenu basic left className="text-uppercase">
                   <MDBDropdownItem href="/projects/personal" header className="text-uppercase">Personal</MDBDropdownItem>
                   <MDBDropdownItem href="/projects/shortlist">Crazy Crystal Collectors</MDBDropdownItem>
                   <MDBDropdownItem href="/projects/apps">Browser Games & Apps</MDBDropdownItem>

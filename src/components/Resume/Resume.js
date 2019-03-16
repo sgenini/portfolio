@@ -5,7 +5,7 @@ import "./resume.css";
 const Resume = () => {
   const bloo = "#1f4e79";
   return (
-    <section className="contact-section my-5" style={{opacity: ".9"}}>
+    <section className="resume-page mb-5" style={{opacity: ".9", paddingTop: "120px"}}>
       <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
 
         <MDBCard className="shadow-box-example hoverable" id="resume-card">

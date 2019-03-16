@@ -3,7 +3,7 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBContainer } from "md
 
 const Tech = () => {
   return (
-    <section className="contact-section my-5" style={{opacity: ".9"}}>
+    <section className="tech-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "100%"}}>
       <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
 
         <MDBCard className="shadow-box-example hoverable">
@@ -67,7 +67,7 @@ const Tech = () => {
           </MDBRow>
           <MDBRow>
             <MDBCol lg="8" className="mx-auto">
-              <h5 className="mt-1 mb-4">Check out these technologies (and more) in action on my <a href="/projects" style={{ color: "#3F729B", textDecorationLine: "underline" }}>projects page</a>, to which I'm constantly updating and adding to!</h5>
+              <h5 className="mt-1 mb-5">Check out these technologies (and more) in action on my <a href="/projects" style={{ color: "#3F729B", textDecorationLine: "underline" }}>projects page</a>, to which I'm constantly updating and adding to!</h5>
             </MDBCol>
           </MDBRow>
         </MDBCard>

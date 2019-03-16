@@ -12,7 +12,7 @@ const Footer = () => {
         {/* eslint-disable-next-line */}
         <a href="https://www.linkedin.com/in/stephanegenini/" target="_blank"> LinkedIn</a> | 
         {/* eslint-disable-next-line */}
-        <a href="https://twitter.com/StephaneGenini" target="_blank"> Twitter </a>
+        <a href="https://twitter.com/stephanegenini" target="_blank"> Twitter </a>
         </MDBContainer>
       </div>
     </MDBFooter>
