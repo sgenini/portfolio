@@ -49,6 +49,11 @@
         "cache-control": "s-maxage=0"
       },
       "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://www.stephanegenini.com"}
     }
   ]
 }
