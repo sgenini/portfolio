@@ -64,7 +64,7 @@ class Navbar extends Component {
                   <div className="d-md-inline font-nunito text-uppercase rounded">Projects</div>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu basic left className="text-uppercase">
-                  <MDBDropdownItem href="/projects/personal" header className="text-uppercase">Personal</MDBDropdownItem>
+                  <MDBDropdownItem href="/projects/individual" header className="text-uppercase">Individual</MDBDropdownItem>
                   <MDBDropdownItem href="/projects/shortlist">Crazy Crystal Collectors</MDBDropdownItem>
                   <MDBDropdownItem href="/projects/apps">Browser Games & Apps</MDBDropdownItem>
                   <MDBDropdownItem divider />
@@ -73,7 +73,7 @@ class Navbar extends Component {
                   <MDBDropdownItem href="/projects/pawstagram">Pawstagram</MDBDropdownItem>
                   <MDBDropdownItem href="/projects/nosh">/näSH/</MDBDropdownItem>
                   <MDBDropdownItem divider />
-                  <MDBDropdownItem href="/projects/">See all...</MDBDropdownItem>
+                  <MDBDropdownItem href="/projects/"><strong>See all</strong></MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
