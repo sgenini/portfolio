@@ -3,7 +3,7 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBContainer } from "md
 
 const Projects = () => {
   return (
-    <section className="projects-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "100%"}}>
+    <section className="projects-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "90vh"}}>
       <MDBContainer style={{width:"80%", minHeight: "0vh"}}>
         <MDBCard className="shadow-box-example hoverable">
           <MDBRow>
