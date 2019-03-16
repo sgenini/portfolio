@@ -16,6 +16,7 @@ class Navbar extends Component {
 
   closeDropdown = () => {
     this.setState({ isOpen: false });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   redirectGithub = () => {
