@@ -29,7 +29,7 @@ class Contact extends React.Component {
         <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
   
           <MDBCard className="shadow-box-example hoverable">
-            <form id="contact-form" action="https://formspree.io/sgenini@gmail.com" method="POST" >
+            <form id="contact-form" action="https://formspree.io/contact@stephanegenini.com" method="POST" >
               <MDBRow>
                 <MDBCol lg="7" className="mx-auto">
                   <MDBCardBody className="form ml-auto">
