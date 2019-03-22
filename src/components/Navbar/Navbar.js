@@ -59,7 +59,8 @@ class Navbar extends Component {
               <MDBNavLink className="font-nunito text-uppercase rounded" to="/resume" onClick={this.closeDropdown}>Resume</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem> 
-              <MDBDropdown>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/projects" onClick={this.closeDropdown}>Projects</MDBNavLink>
+              {/* <MDBDropdown>
                 <MDBDropdownToggle nav caret>
                   <div className="d-md-inline font-nunito text-uppercase rounded">Projects</div>
                 </MDBDropdownToggle>
@@ -75,7 +76,7 @@ class Navbar extends Component {
                   <MDBDropdownItem divider />
                   <MDBDropdownItem href="/projects/"><strong>See all</strong></MDBDropdownItem>
                 </MDBDropdownMenu>
-              </MDBDropdown>
+              </MDBDropdown> */}
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
