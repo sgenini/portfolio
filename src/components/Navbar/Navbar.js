@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBDropdown,
-MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon } from "mdbreact";
+import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon } from "mdbreact";
 
 import "./navbar.css";
 import logo from "../../assets/images/logo2-transparent.png";
@@ -50,7 +49,10 @@ class Navbar extends Component {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/" onClick={this.closeDropdown}>Home</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#home" onClick={this.closeDropdown}>Home</MDBNavLink>
+            </MDBNavItem>
+            <MDBNavItem>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/about" onClick={this.closeDropdown}>About</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="font-nunito text-uppercase rounded" to="/tech" onClick={this.closeDropdown}>Technology</MDBNavLink>
