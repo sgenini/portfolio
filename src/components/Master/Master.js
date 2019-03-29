@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 
-import "./assets/styles/app.css";
-
-import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Tech from "./components/Tech/Tech";
-import Resume from "./components/Resume/Resume";
-import Projects from "./components/Projects/Projects";
+import Home from "../Home/Home";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
+import Tech from "../Tech/Tech";
+import Resume from "../Resume/Resume";
+import Projects from "../Projects/Projects";
 
 
 class Master extends Component {

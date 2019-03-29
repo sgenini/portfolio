@@ -12,6 +12,7 @@ import Contact from "./components/Contact/Contact";
 import Tech from "./components/Tech/Tech";
 import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
+import Master from "./components/Master/Master";
 
 
 class App extends Component {
@@ -21,7 +22,7 @@ class App extends Component {
         <div className="App">
           <Navbar />
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Master} />
             <Route exact path="/react-portfolio" component={Default} />
             <Route exact path="/about" component={About} />
             <Route exact path="/tech" component={Tech} />
