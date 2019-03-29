@@ -193,7 +193,6 @@ const Projects = () => {
               <p className="px-3">Check out some of my solo endeavors, from JavaScript browser-based <br /> games & apps to more developed web-based services!</p>
               <hr style={{width: "60%"}} className="mx-auto" />
               <MDBCardBody>
-              
                 {/* Bamazon */}
                 <MDBCard style={{width: "90%"}} className="mx-auto mb-4">
                   <MDBCardHeader>
@@ -241,6 +240,18 @@ const Projects = () => {
                     <a href="https://sgenini.github.io/word-guess-game/" target="_blank" rel="noopener noreferrer">Deployed</a> | <a href="https://github.com/sgenini/word-guess-game" target="_blank" rel="noopener noreferrer">GitHub</a>
                   </MDBCardBody>
                 </MDBCard>
+              
+                {/* Harry Potter Trivia */}
+                {/* <MDBCard style={{width: "90%"}} className="mx-auto mb-4">
+                  <MDBCardHeader>
+                    <h5><strong>Harry Potter Trivia<br /></strong><small>A Wizarding Wisdom Game</small></h5>
+                  </MDBCardHeader>
+                  <MDBCardImage src={TriviaPotter} className="img-fluid"/>
+                  <MDBCardBody>
+                    <p>-You will be presented with a series of questions. Each question will have multiple choice or true/false answers. You will have 20 seconds to answer each question. The game will alert you if you were correct or incorrect. At the end of the game, your score will be revealed. You will have the option to restart the game to try and beat your score. Good luck, and have fun!</p>
+                    <a href="https://sgenini.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer">Deployed</a> | <a href="https://github.com/sgenini/TriviaGame" target="_blank" rel="noopener noreferrer">GitHub</a>
+                  </MDBCardBody>
+                </MDBCard> */}
 
               </MDBCardBody>
             </MDBCard>

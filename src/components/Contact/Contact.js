@@ -27,7 +27,6 @@ class Contact extends React.Component {
   render(){
     return (
       <section id="contact" className="contact-page mt-4" style={{opacity: ".9", minHeight: "100%", borderTop: "3px solid white"}}>
-        
         <MDBView src={desk}>
           <MDBMask overlay="black-light" className="flex-center flex-column text-center">
             <MDBContainer style={{width:"100%", minHeight: "75vh", overflow: "auto"}}> 
