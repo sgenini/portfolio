@@ -1,19 +1,19 @@
 import React from "react";
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBContainer, MDBView, MDBMask } from "mdbreact";
 
-import code from "../../assets/images/code.png";
+import sanfrancisco from "../../assets/images/sanfrancisco.jpg";
 
-const Tech = () => {
+const About = () => {
   return (
-    <section id="tech" className="tech-page hoverable" style={{opacity: "1", borderBottom: "3px solid white"}}>
+    <section id="about" className="about-page hoverable" style={{opacity: "1", borderBottom: "3px solid white"}}>
       <header>
-        <MDBView src={code}>
+        <MDBView src={sanfrancisco}>
           <MDBMask overlay="black-light" className="flex-center flex-column text-center">
             <MDBContainer style={{width:"100%", minHeight: "75vh", overflow: "auto"}}>
               <MDBCard className="shadow-box-example hoverable mt-4 mb-4">
                 <MDBRow>
                   <MDBCol lg="12" className="mx-auto">
-                    <h1 className="mt-4 mb-3 text-lg-center" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Technology Proficiencies</strong></strong><br />
+                    <h1 className="mt-4 mb-3 text-lg-center" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>About Me</strong></strong><br />
                     <MDBIcon className="mt-4" fab icon="codepen" /></h1>
                   </MDBCol>
                 </MDBRow>
@@ -83,4 +83,4 @@ const Tech = () => {
   );
 }
 
-export default Tech;
+export default About;
