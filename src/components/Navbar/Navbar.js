@@ -15,7 +15,7 @@ class Navbar extends Component {
 
   closeDropdown = () => {
     this.setState({ isOpen: false });
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    // window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   redirectGithub = () => {
@@ -38,6 +38,36 @@ class Navbar extends Component {
     window.open("mailto:contact@stephanegenini.com");
   }
 
+  scrollToHome = () => {
+    document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
+  scrollToAbout = () => {
+    document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
+  scrollToTech = () => {
+    document.getElementById("tech").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
+  scrollToResume = () => {
+    document.getElementById("resume").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
+  scrollToProjects = () => {
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
+  scrollToContact = () => {
+    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
+    this.setState({ isOpen: false });
+  }
+
   render() {
     return (
       <MDBNavbar className="shadow-box-example hoverable border-bottom border-light" dark expand="md" style={{backgroundColor: "rgba(0,0,0,0.8)"}} scrolling fixed="top">
@@ -49,41 +79,24 @@ class Navbar extends Component {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#home" onClick={this.closeDropdown}>Home</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#home" onClick={this.scrollToHome}>Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/about" onClick={this.closeDropdown}>About</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#about" onClick={this.scrollToAbout}>About</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/tech" onClick={this.closeDropdown}>Technology</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#tech" onClick={this.scrollToTech}>Technology</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/resume" onClick={this.closeDropdown}>Resume</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#resume" onClick={this.scrollToResume}>Resume</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem> 
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/projects" onClick={this.closeDropdown}>Projects</MDBNavLink>
-              {/* <MDBDropdown>
-                <MDBDropdownToggle nav caret>
-                  <div className="d-md-inline font-nunito text-uppercase rounded">Projects</div>
-                </MDBDropdownToggle>
-                <MDBDropdownMenu basic left className="text-uppercase">
-                  <MDBDropdownItem href="/projects/individual" header className="text-uppercase">Individual</MDBDropdownItem>
-                  <MDBDropdownItem href="/projects/shortlist">Crazy Crystal Collectors</MDBDropdownItem>
-                  <MDBDropdownItem href="/projects/apps">Browser Games & Apps</MDBDropdownItem>
-                  <MDBDropdownItem divider />
-                  <MDBDropdownItem href="/projects/collaborative" header className="text-uppercase">Collaborative</MDBDropdownItem>
-                  <MDBDropdownItem href="/projects/crest">Crest Trading</MDBDropdownItem>
-                  <MDBDropdownItem href="/projects/pawstagram">Pawstagram</MDBDropdownItem>
-                  <MDBDropdownItem href="/projects/nosh">/näSH/</MDBDropdownItem>
-                  <MDBDropdownItem divider />
-                  <MDBDropdownItem href="/projects/"><strong>See all</strong></MDBDropdownItem>
-                </MDBDropdownMenu>
-              </MDBDropdown> */}
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#projects" onClick={this.scrollToProjects}>Projects</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="/contact" onClick={this.closeDropdown}><MDBIcon far icon="comment" className="pr-2" />Contact</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/contact" onClick={this.scrollToContact}><MDBIcon far icon="comment" className="pr-2" />Contact</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light rounded" to="#" onClick={this.redirectGithub}>
