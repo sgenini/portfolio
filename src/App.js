@@ -24,6 +24,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={Master} />
             <Route exact path="/react-portfolio" component={Default} />
+            <Route exact path="/home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/tech" component={Tech} />
             <Route exact path="/resume" component={Resume} />

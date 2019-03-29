@@ -25,7 +25,7 @@ class Contact extends React.Component {
 
   render(){
     return (
-      <section className="contact-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "100%"}}>
+      <section id="contact" className="contact-page mt-4 mb-4" style={{opacity: ".9", minHeight: "100%"}}>
         <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
   
           <MDBCard className="shadow-box-example hoverable">

@@ -3,10 +3,10 @@ import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBContainer } from "md
 
 const Tech = () => {
   return (
-    <section id="tech" className="tech-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "100%", borderBottom: "3px solid white"}}>
+    <section id="tech" className="tech-page" style={{opacity: ".9", minHeight: "100%", borderBottom: "3px solid white"}}>
       <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
 
-        <MDBCard className="shadow-box-example hoverable">
+        <MDBCard className="shadow-box-example hoverable mt-4">
           <MDBRow>
             <MDBCol lg="12" className="mx-auto">
               <h1 className="mt-4 mb-3 text-lg-center" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Technology Proficiencies</strong></strong><br />

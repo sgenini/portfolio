@@ -5,10 +5,10 @@ import "./resume.css";
 const Resume = () => {
   const bloo = "#1f4e79";
   return (
-    <section id="resume" className="resume-page mb-5" style={{opacity: ".9", paddingTop: "120px", borderBottom: "3px solid white"}}>
+    <section id="resume" className="resume-page" style={{opacity: ".9", borderBottom: "3px solid white"}}>
       <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
 
-        <MDBCard className="shadow-box-example hoverable" id="resume-card">
+        <MDBCard className="shadow-box-example hoverable mt-4 mb-4" id="resume-card">
           <MDBRow>
             <MDBCol lg="12" className="mx-auto">
               <h1 className="mt-5 text-lg-center text-uppercase" color="#FFFFFF"><strong><strong style={{fontFamily: "Lato", fontWeight: "900", fontSize: "75px"}}><span style={{color: bloo}}>Stéphane</span> <span style={{color: "black"}}>Genini</span></strong></strong><br /></h1>

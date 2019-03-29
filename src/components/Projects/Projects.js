@@ -30,7 +30,7 @@ import CrazyCrystalCollectors from "./Individual/CrazyCrystalCollectors.png";
 
 const Projects = () => {
   return (
-    <section className="projects-page mb-5" style={{opacity: ".9", paddingTop: "120px", minHeight: "90vh"}}>
+    <section id="projects" className="projects-page mt-4 mb-4" style={{opacity: ".9", minHeight: "90vh", borderBottom: "3px solid white"}}>
       <MDBContainer style={{width:"80%", minHeight: "0vh"}}>
         <MDBCard className="shadow-box-example hoverable">
           <MDBRow>
@@ -191,7 +191,7 @@ const Projects = () => {
               <h1 className="mt-4 mb-3 text-lg-center" color="#FFFFFF"><strong><strong style={{fontFamily: "'Crimson Text', serif"}}>Individual</strong></strong></h1>
               <p className="px-3">Check out some of my solo endeavors, from JavaScript browser-based <br /> games & apps to more developed web-based services!</p>
               <hr style={{width: "60%"}} className="mx-auto" />
-            <MDBCardBody>
+              <MDBCardBody>
               
                 {/* Bamazon */}
                 <MDBCard style={{width: "90%"}} className="mx-auto mb-4">
@@ -241,7 +241,7 @@ const Projects = () => {
                   </MDBCardBody>
                 </MDBCard>
 
-            </MDBCardBody>
+              </MDBCardBody>
             </MDBCard>
           </MDBCol>
         </MDBRow>
