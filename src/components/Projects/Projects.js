@@ -30,8 +30,9 @@ import CrazyCrystalCollectors from "./Individual/CrazyCrystalCollectors.png";
 
 const Projects = () => {
   return (
-    <section id="projects" className="projects-page mt-4 mb-4" style={{opacity: ".9", minHeight: "90vh", borderBottom: "3px solid white"}}>
-      <MDBContainer style={{width:"80%", minHeight: "0vh"}}>
+    <section id="projects" className="projects-page mb-4" style={{opacity: ".9", minHeight: "90vh"}}>
+      <div className="py-5"></div>
+      <MDBContainer style={{width:"100%", minHeight: "0vh"}}>
         <MDBCard className="shadow-box-example hoverable">
           <MDBRow>
             <MDBCol lg="12" className="mx-auto">

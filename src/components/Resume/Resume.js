@@ -6,12 +6,12 @@ const Resume = () => {
   const bloo = "#1f4e79";
   return (
     <section id="resume" className="resume-page" style={{opacity: ".9", borderBottom: "3px solid white"}}>
-      <MDBContainer style={{width:"80%", minHeight: "75vh"}}>
-
+      <div className="py-4"></div>
+      <MDBContainer style={{width:"100%", minHeight: "75vh"}}>
         <MDBCard className="shadow-box-example hoverable mt-4 mb-4" id="resume-card">
           <MDBRow>
             <MDBCol lg="12" className="mx-auto">
-              <h1 className="mt-5 text-lg-center text-uppercase" color="#FFFFFF"><strong><strong style={{fontFamily: "Lato", fontWeight: "900", fontSize: "75px"}}><span style={{color: bloo}}>Stéphane</span> <span style={{color: "black"}}>Genini</span></strong></strong><br /></h1>
+              <h1 className="mt-5 text-lg-center text-uppercase" color="#FFFFFF"><strong><strong style={{fontFamily: "Lato", fontWeight: "900", fontSize: "65px"}}><span style={{color: bloo}}>Stéphane</span> <span style={{color: "black"}}>Genini</span></strong></strong><br /></h1>
               <MDBBtn outline transparent color="mdb-color" href="https://drive.google.com/open?id=1sNpnDa4TsD8RAPqnKlJP370w8hlpWAMc" target="_blank" size="sm" >View PDF</MDBBtn>
               <hr style={{width: "70%"}} className="mb-0" />
             </MDBCol>

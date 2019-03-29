@@ -14,8 +14,8 @@ class Master extends Component {
       <div className="Master">
         <Home />
         <About />
-        <Tech />
         <Resume />
+        <Tech />
         <Projects />
         <Contact />
       </div>

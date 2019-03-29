@@ -85,10 +85,10 @@ class Navbar extends Component {
               <MDBNavLink className="font-nunito text-uppercase rounded" to="#about" onClick={this.scrollToAbout}>About</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#tech" onClick={this.scrollToTech}>Technology</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#resume" onClick={this.scrollToResume}>Resume</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#resume" onClick={this.scrollToResume}>Resume</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="#tech" onClick={this.scrollToTech}>Technology</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem> 
               <MDBNavLink className="font-nunito text-uppercase rounded" to="#projects" onClick={this.scrollToProjects}>Projects</MDBNavLink>
