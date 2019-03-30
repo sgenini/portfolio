@@ -28,7 +28,7 @@ const Resume = () => {
                 <h3 className="text-lg-center mb-0 mt-4">
                   <strong style={{fontFamily: "'Crimson Text', serif", color: bloo}} >Technical Skills</strong>
                 </h3>
-                  <p className="text-lg-left ml-3"><strong>Web Stack: </strong>MongoDB, Express.js, React.js, Node.js (incl. HTML, CSS, JavaScript, MySQL, etc.)<br/>
+                  <p className="text-lg-left"><strong>Web Stack: </strong>MongoDB, Express.js, React.js, Node.js (incl. HTML, CSS, JavaScript, MySQL, etc.)<br/>
                   <strong>Computer Proficiency: </strong>Microsoft Suite, Google Suite, Adobe Suite, Social Media Management, OBS Studio, etc.<br/>
                   <strong>Foreign Languages: </strong>Bilingual French (Baccalauréat with Distinction), Basic Spanish</p>
                   <hr style={{width: "35%", opacity: ".65"}} className="mb-0" />
@@ -64,8 +64,8 @@ const Resume = () => {
                 </h3>
                 <MDBContainer>
                   <MDBRow between>
-                    <MDBCol className="text-uppercase" size="4">Aetherium Gaming</MDBCol>
-                    <MDBCol size="4"><span style={{ opacity: 0 }}>---</span>Los Angeles, CA (2018 - 2019)</MDBCol>
+                    <MDBCol className="text-uppercase" sm="4">Aetherium Gaming</MDBCol>
+                    <MDBCol sm="4"><span style={{ opacity: 0 }}>---</span>Los Angeles, CA (2018 - 2019)</MDBCol>
                   </MDBRow>
                   <p className="text-left" style={{ fontStyle: "italic", marginTop: "-5px", marginLeft: "50px", fontWeight: "300" }}>Broadcaster & Senior Content Producer</p>
                   <ul className="text-left" style={{ lineHeight: "1.25", marginTop: "-15px", marginLeft: "50px", marginBottom: "20px", fontWeight: "300" }}>
@@ -75,8 +75,8 @@ const Resume = () => {
                     <li>Designed branding assets and managed social media accounts to create a strong, cohesive identity; contacted potential sponsors to discuss opportunities ranging from early game access from developers to brand affiliate and partner programs</li>
                   </ul>
                   <MDBRow between >
-                    <MDBCol className="text-uppercase" size="4"><span style={{ opacity: 0 }}>....</span>Target Corporation</MDBCol>
-                    <MDBCol size="4"><span style={{ opacity: 0 }}>-----------</span>Los Angeles, CA (2017)</MDBCol>
+                    <MDBCol className="text-uppercase" sm="4"><span style={{ opacity: 0 }}>....</span>Target Corporation</MDBCol>
+                    <MDBCol sm="4"><span style={{ opacity: 0 }}>-----------</span>Los Angeles, CA (2017)</MDBCol>
                   </MDBRow>
                   <p className="text-left" style={{ fontStyle: "italic", marginTop: "-5px", marginLeft: "50px", fontWeight: "300" }}>Executive Team Leader of Guest Experience</p>
                   <ul className="text-left" style={{ lineHeight: "1.25", marginTop: "-15px", marginLeft: "50px", fontWeight: "300" }}>
