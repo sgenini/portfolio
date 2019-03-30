@@ -1,5 +1,5 @@
 import React from "react";
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBContainer, MDBCarousel, MDBCardHeader, MDBCardImage, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask } from "mdbreact";
+import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBContainer, MDBCarousel, MDBCardHeader, MDBCardImage, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBBtn } from "mdbreact";
 
 // CREST PHOTOS
 import crestWelcome from "./Crest/images/welcome.png";
@@ -24,8 +24,8 @@ import noshShopping from "./Nosh/images/Shopping.png";
 // INDIVIDUAL PHOTOS
 import bamazon from "./Individual/bamazon.gif";
 import GifTastic from "./Individual/GifTastic.png";
-import GuessThatFruit from "./Individual/GuessThatFruit.png";
 import CrazyCrystalCollectors from "./Individual/CrazyCrystalCollectors.png";
+// import GuessThatFruit from "./Individual/GuessThatFruit.png";
 
 
 const Projects = () => {
@@ -230,7 +230,7 @@ const Projects = () => {
                 </MDBCard>
               
                 {/* Guess That Fruit */}
-                <MDBCard style={{width: "90%"}} className="mx-auto mb-4">
+                {/* <MDBCard style={{width: "90%"}} className="mx-auto mb-4">
                   <MDBCardHeader>
                     <h5><strong>Guess That Fruit<br /></strong><small>A Hangman Style Browser Game</small></h5>
                   </MDBCardHeader>
@@ -239,7 +239,7 @@ const Projects = () => {
                     <p>Use your keyboard to type a letter. If the letter is in the word, it will update to show where it appears in the word. If the letter is not in the word, you will lose a guess and it will appear in the "Wrong Guesses" section. Keep guessing until you complete the word, or you run out of guesses. Completed words will count as a win, whereas running out of guesses will count as a loss. Good luck!</p>
                     <a href="https://sgenini.github.io/word-guess-game/" target="_blank" rel="noopener noreferrer">Deployed</a> | <a href="https://github.com/sgenini/word-guess-game" target="_blank" rel="noopener noreferrer">GitHub</a>
                   </MDBCardBody>
-                </MDBCard>
+                </MDBCard> */}
               
                 {/* Harry Potter Trivia */}
                 {/* <MDBCard style={{width: "90%"}} className="mx-auto mb-4">
@@ -252,6 +252,8 @@ const Projects = () => {
                     <a href="https://sgenini.github.io/TriviaGame/" target="_blank" rel="noopener noreferrer">Deployed</a> | <a href="https://github.com/sgenini/TriviaGame" target="_blank" rel="noopener noreferrer">GitHub</a>
                   </MDBCardBody>
                 </MDBCard> */}
+
+                <MDBBtn transparent color="blue" href="/projects/all" size="sm" >See more</MDBBtn>
 
               </MDBCardBody>
             </MDBCard>

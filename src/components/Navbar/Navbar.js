@@ -79,24 +79,24 @@ class Navbar extends Component {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#home" onClick={this.scrollToHome}>Home</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/#home" onClick={this.scrollToHome}>Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#about" onClick={this.scrollToAbout}>About</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/#about" onClick={this.scrollToAbout}>About</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#resume" onClick={this.scrollToResume}>Resume</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/#resume" onClick={this.scrollToResume}>Resume</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#tech" onClick={this.scrollToTech}>Technology</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/#tech" onClick={this.scrollToTech}>Technology</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem> 
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#projects" onClick={this.scrollToProjects}>Projects</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/#projects" onClick={this.scrollToProjects}>Projects</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>
           <MDBNavbarNav right>
             <MDBNavItem>
-              <MDBNavLink className="font-nunito text-uppercase rounded" to="#contact" onClick={this.scrollToContact}><MDBIcon far icon="comment" className="pr-2" />Contact</MDBNavLink>
+              <MDBNavLink className="font-nunito text-uppercase rounded" to="/#contact" onClick={this.scrollToContact}><MDBIcon far icon="comment" className="pr-2" />Contact</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
               <MDBNavLink className="waves-effect waves-light rounded" to="#" onClick={this.redirectGithub}>
