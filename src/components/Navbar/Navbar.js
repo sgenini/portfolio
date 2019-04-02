@@ -15,26 +15,21 @@ class Navbar extends Component {
 
   closeDropdown = () => {
     this.setState({ isOpen: false });
-    // window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   redirectGithub = () => {
-    // eslint-disable-next-line
     window.open("https://github.com/sgenini", "_blank");
   }
 
   redirectLinkedIn = () => {
-    // eslint-disable-next-line
     window.open("https://www.linkedin.com/in/stephanegenini/", "_blank");
   }
 
   redirectTwitter = () => {
-    // eslint-disable-next-line
     window.open("https://twitter.com/stephanegenini", "_blank");
   }
 
   redirectMailTo = () => {
-    // eslint-disable-next-line
     window.open("mailto:contact@stephanegenini.com");
   }
 
