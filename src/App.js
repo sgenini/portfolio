@@ -12,6 +12,7 @@ import Contact from "./components/Contact/Contact";
 import Tech from "./components/Tech/Tech";
 import Resume from "./components/Resume/Resume";
 import Projects from "./components/Projects/Projects";
+import IndividualProjects from "./components/Projects/Individual/IndividualProjects";
 import Master from "./components/Master/Master";
 
 
@@ -29,6 +30,7 @@ class App extends Component {
             <Route exact path="/tech" component={Tech} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/projects" component={Projects} />
+            <Route exact path="/projects/individual" component={IndividualProjects} />
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/github" component={ () => { window.open("https://github.com/sgenini", "_blank") } } />
             <Route exact path="/linkedin" component={ () => { window.open("https://www.linkedin.com/in/stephane-genini/", "_blank") } } />

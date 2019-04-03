@@ -25,7 +25,6 @@ import noshShopping from "./Nosh/images/Shopping.png";
 import bamazon from "./Individual/bamazon.gif";
 import GifTastic from "./Individual/GifTastic.png";
 import CrazyCrystalCollectors from "./Individual/CrazyCrystalCollectors.png";
-// import GuessThatFruit from "./Individual/GuessThatFruit.png";
 
 
 const Projects = () => {
@@ -253,7 +252,7 @@ const Projects = () => {
                   </MDBCardBody>
                 </MDBCard> */}
 
-                <MDBBtn transparent color="blue" href="/projects/all" size="sm" >See more</MDBBtn>
+                <MDBBtn transparent color="blue" href="/projects/individual" size="sm" >See more</MDBBtn>
 
               </MDBCardBody>
             </MDBCard>
