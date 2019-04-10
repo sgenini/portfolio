@@ -61,8 +61,8 @@ const Tech = () => {
                         <li><p><MDBIcon icon="angle-right" className="pr-2" />Heroku</p></li>       
                         <li><p><MDBIcon icon="angle-right" className="pr-2" />Firebase</p></li>
                         <li><p><MDBIcon icon="angle-right" className="pr-2" />Handlebars.js</p></li>
-                        <li><p><MDBIcon icon="angle-right" className="pr-2" />Mongoose.js</p></li>
                         <li><p><MDBIcon icon="angle-right" className="pr-2" />Passport.js</p></li>
+                        <li><p><MDBIcon icon="angle-right" className="pr-2" />NPM, Yarn, etc.</p></li>
                         <li><p><MDBIcon icon="ellipsis-h" className="pr-2" />& much more</p></li>
                       </ul>
                     </MDBCardBody>
